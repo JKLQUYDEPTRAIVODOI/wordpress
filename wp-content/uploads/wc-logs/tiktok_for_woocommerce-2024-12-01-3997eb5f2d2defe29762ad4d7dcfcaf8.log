@@ -1,0 +1,53 @@
+2024-12-01T08:23:50+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_674c1d15f15a4httplocalhostwordpresswp-admin","smb_name":"PROD","redirect_url":"http:\/\/localhost\/wordpress\/wp-admin\/"}
+ ajax: no
+2024-12-01T08:23:50+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 202412010823491AAFF281FC37F4EB0DCE,202412010823491AAFF281FC37F4EB0DCE
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+x-tt-trace-host: 0140989ecf176c245e4d6bb97b18687e640b5d604ef8cca997796d9c017038013d809e5a47c624e0f0ce79fdfb5c7c6f781669e4f837bb19a8a1e5a77bbea932a90965545fd2c0b10f4bbe42b0ea6d1bf982c3d60692c54146070ce7905da109e8ddf7b859f5ac01f75dfd0492d178ce3a
+x-tt-trace-id: 00-2412010823491AAFF281FC37F4EB0DCE-04EBCDB34C77A5A2-00
+Server: TLB
+Content-Encoding: gzip
+Content-Length: 207
+X-Origin-Response-Time: 94,23.48.172.95
+X-Akamai-Request-ID: 613a3466.c1eef698
+Date: Sun, 01 Dec 2024 08:23:50 GMT
+X-Cache: TCP_MISS from a23-36-145-60.deploy.akamaitechnologies.com (AkamaiGHost/11.7.1-5d2a058efeda81c5505a169a6e16c38e) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-48-172-95.deploy.akamaitechnologies.com (AkamaiGHost/11.7.1-5d2a058efeda81c5505a169a6e16c38e) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=50, origin; dur=94
+Server-Timing: inner; dur=88
+X-Parent-Response-Time: 142,23.36.145.60
+
+{"code":0,"msg":"ok","data":{"external_data_key":"a119c909-1a3f-46ed-87e7-f1b07b6b6bdb","redirect_uri":"http:\/\/localhost\/wordpress\/wp-admin\/","app_id":"7443356266014965768","app_secret":"86509714478ffeaaa21bf5acc5fd086d950d1fe5"}}
+
+2024-12-01T08:57:36+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-12-01T08:57:36+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-12-01T08:57:49+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2024-12-01T08:57:49+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2024-12-01T08:57:50+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-12-01T08:57:50+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-12-01T10:02:30+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-12-01T10:02:30+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-12-01T10:08:29+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-12-01T10:08:29+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-12-01T10:08:42+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-12-01T10:08:42+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-12-01T10:22:25+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-12-01T10:22:26+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-12-01T10:48:14+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-12-01T10:48:14+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-12-01T10:48:22+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2024-12-01T10:48:22+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2024-12-01T10:48:24+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-12-01T10:48:24+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-12-01T10:48:33+00:00 DEBUG Tt4b_Pixel_Class::inject_initiate_checkout_event: hit InitiateCheckout
+2024-12-01T10:48:33+00:00 DEBUG Tt4b_Pixel_Class::inject_initiate_checkout_event: Missing option "access_token"
+2024-12-01T10:48:41+00:00 DEBUG Tt4b_Pixel_Class::inject_initiate_checkout_event: hit InitiateCheckout
+2024-12-01T10:48:41+00:00 DEBUG Tt4b_Pixel_Class::inject_initiate_checkout_event: Missing option "access_token"
